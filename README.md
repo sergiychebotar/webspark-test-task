@@ -43,4 +43,5 @@ linux;
 6. Запускаємо плейбук командою ansible-playbook -K -i inventory main.yml --ask-vault-pass
 
 TDL
+
 потрібно розібратись як коректно обіграти зміну порту ssh з стандартного на інший, щоб щоразу не міняти inventory 
