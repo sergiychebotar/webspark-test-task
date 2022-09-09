@@ -41,3 +41,6 @@ linux;
 | NONCE_SALT | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/)
 5. Редагуємо файл inventory під свої потреби
 6. Запускаємо плейбук командою ansible-playbook -K -i inventory main.yml --ask-vault-pass
+
+TDL
+потрібно розібратись як коректно обіграти зміну порту ssh з стандартного на інший, щоб щоразу не міняти inventory 
