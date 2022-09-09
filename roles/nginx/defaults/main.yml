@@ -1,0 +1,5 @@
+---
+# defaults file for ansible-role-nginx
+
+# Folder where websites paths located
+sites_path: "/var/www/http_host"
