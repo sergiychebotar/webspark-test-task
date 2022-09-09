@@ -30,6 +30,7 @@ linux;
                                  /roles/mysql/defaults/main.yml
                                  /roles/wordpress/defaults/main.yml
 4. При бажанні в файлі /roles/wordpress/defaults/main.yml розкоментовуємо відповідні змінні і вносимо згенеровані значення
+
 |AUTH_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/)
 
 | SECURE_AUTH_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/)
