@@ -30,15 +30,15 @@ linux;
                                  /roles/mysql/defaults/main.yml
                                  /roles/wordpress/defaults/main.yml
 4. При бажанні в файлі /roles/wordpress/defaults/main.yml розкоментовуємо відповідні змінні і вносимо згенеровані значення
-|AUTH_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/) | 
-| SECURE_AUTH_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/)
-| LOGGED_IN_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/)
-| LOGGED_IN_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/)
-| NONCE_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/)
-| AUTH_SALT | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/)
-| SECURE_AUTH_SALT | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/)
-| LOGGED_IN_SALT | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/)
-| NONCE_SALT | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/)
+|AUTH_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/) /n 
+| SECURE_AUTH_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/) /n
+| LOGGED_IN_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/) /n
+| LOGGED_IN_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/) /n
+| NONCE_KEY | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/) /n
+| AUTH_SALT | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/) /n
+| SECURE_AUTH_SALT | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/) /n
+| LOGGED_IN_SALT | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/) /n
+| NONCE_SALT | WordPress security keys. Can be generated [here](https://api.wordpress.org/secret-key/1.1/salt/) /n
 5. Редагуємо файл inventory під свої потреби
 6. Запускаємо плейбук командою ansible-playbook -K -i inventory main.yml --ask-vault-pass
 
