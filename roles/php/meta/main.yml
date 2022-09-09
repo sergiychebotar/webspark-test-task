@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Poshtatska Kateryna
+  description: Role for deploying PHP server and support packages for MySQL and FPM.
+
+  license: BSD
+
+  min_ansible_version: 2.9
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - focal
+
+  galaxy_tags:
+    - php
+    - mysql
+
+dependencies: []

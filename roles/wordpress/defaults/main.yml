@@ -1,0 +1,38 @@
+---
+# defaults file for ansible-role-wordpress
+
+# # /**#@+
+# #  * Authentication Unique Keys and Salts.
+# #  *
+# #  * Change these to different unique phrases!
+# #  * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
+# #  * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+# #  *
+# #  * @since 2.6.0
+# #  */
+
+# AUTH_KEY:
+# SECURE_AUTH_KEY:
+# LOGGED_IN_KEY:
+# NONCE_KEY:
+# AUTH_SALT:
+# SECURE_AUTH_SALT:
+# LOGGED_IN_SALT:
+# NONCE_SALT:
+
+domain_name: wp.com
+app_name: wordpress
+php_fpm_sock: /run/php/php-fpm.sock
+
+sites_path: /var/www/http_host
+
+db_name: wordpress
+db_host: localhost
+db_username: wordpressuser
+db_password: !vault |
+          $ANSIBLE_VAULT;1.1;AES256
+          35623833383233663630616135393939626336636365626631613338393635343464346462356631
+          3534363330646566323935623631393437343135363933330a336662373933376438646137306630
+          30663063393638623435643730363264383062343363323130393230323534646263626539376437
+          3937666264356265330a333761623034643034383933313035353566396434336565633933663365
+          32336433363631343330326439643535353566666234356239393934323738656263

@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Poshtatska Kateryna
+  description: Role for deploying wordpress application in existing infrastructure.
+
+  license: BSD
+
+  min_ansible_version: 2.9
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - focal
+
+  galaxy_tags:
+    - wordpress
+
+dependencies: []
