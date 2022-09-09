@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+  roles:
+    - ./roles/mysql
+    - ./roles/php
+    - ./roles/nginx
+    - ./roles/wordpress
+    - ./roles/nginx_hardening
+    - ./roles/os_hardening
+   
