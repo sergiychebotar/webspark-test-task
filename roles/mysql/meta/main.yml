@@ -1,0 +1,18 @@
+galaxy_info:
+  author: Poshtatska Kateryna
+  description: Role for deploying MySQL server, database and user for communication with DB server.
+
+  license: BSD
+
+  min_ansible_version: 2.9
+
+  platforms:
+  - name: Ubuntu
+    versions:
+    - focal
+
+  galaxy_tags:
+    - mysql
+    - db
+
+dependencies: []
